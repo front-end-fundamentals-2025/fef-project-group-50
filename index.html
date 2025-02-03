@@ -4,29 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grisch Clothing</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="index.html">Home</a>
-        <a href="product-page.html">Products</a>
-        <a href="index.html">Grisch Clothing</a>
-        <a href="shopping-cart.html"
-          ><img
-            src="Images\Navigation\shopping-bag.svg"
-            alt="Shopping bag icon"
-            id="shopping-bag-icon"
-        /></a>
+        <ul id="nav-bar">
+          <li><a href="index.html">GRISCH CLOTHING</a></li>
+          <li><a href="product-page.html">Products</a></li>
+          <li>
+            <a href="shopping-cart.html">
+              <img
+                src="Images\Navigation\shopping-bag.svg"
+                alt="Shopping bag icon"
+                id="shopping-bag-icon"
+            /></a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main>
       <a href="product-page.html"
         ><img
-          src="Images\Homepage\Homepage-Cover-01.avif"
+          src="Images\Homepage\Homepage-Cover-01.jpg"
           alt="Folded sweaters"
+          id="folded-sweaters"
       /></a>
-      <a href="product-page.html">Start Shopping</a>
+      <a id="start-shopping-text" href="product-page.html">Start Shopping</a>
     </main>
+    <footer>
+      <p>© GRISCH CLOTHING 2025</p>
+    </footer>
   </body>
 </html>
