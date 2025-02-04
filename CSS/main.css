@@ -129,3 +129,15 @@ footer {
   #price-and-pay {
   }
 }
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr 1fr)
+}
+
+.product-item {
+  width: 100%;
+  max-width: 200px;
+  gap: 20px;
+  padding: 20%;
+  text-align: center;
+  }
