@@ -112,15 +112,21 @@ footer {
 #add-to-cart {
   margin-top: 1rem;
   font-size: 0.8rem;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 1);
   color: white;
   border-style: none;
   border-radius: 13px;
   width: 7rem;
   height: 2.7rem;
   font-family: sans-serif;
+  transition: all 0.35s ease;
 }
 
+#add-to-cart:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/*DETAIL PAGE*/
 .detail-container {
   display: grid;
   margin-left: 10%;
@@ -159,6 +165,15 @@ footer {
   transform: scale(1.05);
   box-shadow: 0 0 15px #393d8f73;
   cursor: pointer;
+}
+
+.product-info p{
+  font-weight: 350;
+  font-size: 0.8rem;
+}
+
+.product-size select{
+  outline: none;
 }
 
 /* RESPONSIVE */
