@@ -163,13 +163,21 @@ footer {
 /* CSS hover effect https://codepen.io/nefejames/pen/emONEew */
 .flex-images img:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 15px #393d8f73;
+  box-shadow: 0 0 15px #00000073;
   cursor: pointer;
 }
 
 .product-info p{
   font-weight: 350;
   font-size: 0.8rem;
+}
+
+.product-info {
+  padding-top: 4%;
+}
+
+.product-size {
+  padding-top: 4%;
 }
 
 .product-size select{
@@ -196,6 +204,8 @@ footer {
   #price-and-pay {
   }
 }
+
+/*PRODUCT PAGE*/
 .product-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr 1fr);
@@ -211,4 +221,15 @@ footer {
   gap: 2px;
   padding: 20%;
   text-align: center;
+}
+
+.product-item img {
+  transition: all 0.5s ease;
+}
+
+/* CSS hover effect https://codepen.io/nefejames/pen/emONEew */
+.product-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00000073;
+  cursor: pointer;
 }
