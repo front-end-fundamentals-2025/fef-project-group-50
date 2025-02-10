@@ -245,8 +245,6 @@ footer {
   #shopping-cart-container {
     grid-template-columns: 1fr;
   }
-  #price-and-pay {
-  }
   .detail-container {
     grid-column-gap: 5%;
   }
@@ -273,11 +271,5 @@ footer {
   .product-item a,
   p {
     font-size: 0.8rem;
-  }
-}
-
-@media screen and (max-width: 435px) {
-  .product-grid {
-    grid-template-columns: 1fr;
   }
 }
