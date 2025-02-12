@@ -11,31 +11,17 @@ const sweaterTwoButton = document.getElementById(
 );
 
 sweaterOneButton.addEventListener("click", function (event) {
-  let clothing = "itemNameSweaterOne.innerText";
-
+  let clothing = itemNameSweaterOne.innerText;
   sessionStorage.sweaterOne = clothing;
-
-  let newClothing = sessionStorage.clothing;
-
-  liElement.innerText = newClothing;
-
-  shoppingCart.appendChild(liElement);
 });
 
 sweaterTwoButton.addEventListener("click", function (event) {
   let clothing = itemNameSweaterTwo.innerText;
-
   sessionStorage.sweaterTwo = clothing;
-
-  let newClothing = sessionStorage.clothing;
-
-  liElement.innerText = newClothing;
-
-  shoppingCart.appendChild(liElement);
 });
 
 /*
-It should be possible to add two different products to the cart, and they should remain there regardless of which page you navigate to. You must use either sessionStorage or sessionStorage for this.
+It should be possible to add two different products to the cart, and they should remain there regardless of which page you navigate to. You must use either localStorage  or sessionStorage for this.
 
 It should be possible to remove products from the cart. You must use either sessionStorage or sessionStorage for this.
 
