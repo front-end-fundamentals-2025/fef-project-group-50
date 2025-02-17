@@ -104,6 +104,7 @@ footer {
   height: 2.7rem;
   font-family: sans-serif;
   transition: all 0.35s ease;
+  cursor: pointer;
 }
 
 .remove-button {
@@ -116,6 +117,7 @@ footer {
   height: 2rem;
   font-family: sans-serif;
   transition: all 0.35s ease;
+  cursor: pointer;
 }
 
 #pay-button:hover {
@@ -133,6 +135,7 @@ footer {
   height: 2.7rem;
   font-family: sans-serif;
   transition: all 0.35s ease;
+  cursor: pointer;
 }
 
 .add-to-cart:hover {
