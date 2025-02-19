@@ -208,15 +208,7 @@ footer {
 }
 
 .product-item img {
-  transition: all 0.5s ease;
   width: 100%;
-}
-
-/* CSS hover effect https://codepen.io/nefejames/pen/emONEew */
-.product-item img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 15px #00000073;
-  cursor: pointer;
 }
 
 /* RESPONSIVE */
@@ -271,5 +263,23 @@ footer {
   .product-item a,
   p {
     font-size: 0.8rem;
+  }
+}
+
+.product-item img:hover,
+.flex-images img:hover {
+  animation: hover-effect 0.4s ease-in-out forwards;
+}
+
+@keyframes hover-effect {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0px transparent;
+  }
+
+  100% {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00000073;
+    cursor: pointer;
   }
 }
